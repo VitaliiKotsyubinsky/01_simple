@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    max-width: 786px;
+    margin: 0 auto;
+}
+
+.header{
+    min-height: 40px;
+    background-color: #A52A2A;
+    text-align:center;
+    color: cornsilk;
+    font-size: 35px;
+}
+.img_main{
+    display: flex;
+    justify-content: center;
+}
+main>p{
+    font-size: 18px;
+    color: pixie;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+li{
+    border-style: dashed;
+    margin: 20px 5px;
+}
+.footer{
+    min-height: 20px;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 20px;
+}
